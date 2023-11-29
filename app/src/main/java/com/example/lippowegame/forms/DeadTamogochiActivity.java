@@ -2,25 +2,27 @@ package com.example.lippowegame.forms;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import com.example.lippowegame.R;
 import com.example.lippowegame.databinding.ActivityDeadTamogochiBinding;
-
 import com.example.lippowegame.adapter.TamagochiAdapter;
 import com.example.lippowegame.gameclass.Tamagochi;
 import com.example.lippowegame.database.DataBaseManager;
 
 
-
+import java.lang.reflect.Field;
 import java.util.List;
 
 public class  DeadTamogochiActivity extends AppCompatActivity {
     ActivityDeadTamogochiBinding binding;
     DataBaseManager dataBaseManager;
     List<Tamagochi> tamagochiList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
