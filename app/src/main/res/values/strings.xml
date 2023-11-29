@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tamagochi game</string>
+    <string name="Приветствие">Привет! Это игра про тамогочи, где нужно следить и ухаживать за своим питомцом. В противном случае он умрёт :(</string>
+    <string name="Удачи">Желаю удачи!!</string>
+</resources>
